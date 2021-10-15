@@ -172,6 +172,7 @@ def sort():
     else:
         counting_sort(data, drawData, timeTick)
 ### User interface ###
+#This has been used in other projects and was not written by me
 UI_frame = Frame(window, width= 900, height=300, bg=WHITE)
 UI_frame.grid(row=0, column=0, padx=10, pady=5)
 l1 = Label(UI_frame, text="Algorithm: ", bg=WHITE)
